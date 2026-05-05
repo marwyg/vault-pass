@@ -24,7 +24,7 @@ vault-pass d98f7g19-h5m1-q9w8-x32c-i3o2p1cg7u41
 
 - Python 3.8+
 - Bitwarden CLI (`bw`) installed and available in PATH
-- Linux or macOS (Windows not supported, use WSL on Windows)
+- Linux or macOS
 
 ## Features
 
