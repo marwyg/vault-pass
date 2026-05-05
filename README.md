@@ -4,7 +4,7 @@ Vault Pass is a streamlined utility built to eliminate the constant friction of 
 
 ## Installation in Ansible Projects
 
-To use vault-pass in your project, simply add it to your dev_requirements.txt file. 
+To use vault-pass in your project, simply add it to your pip requirements file. 
 Add one of the following lines: 
 
 ### Using HTTPS:
@@ -19,7 +19,7 @@ git+ssh://git@github.com/marwyg/vault-pass.git@main
 
 Then, install the requirements as usual:
 ```Bash
-pip install -r dev_requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Forking
