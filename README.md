@@ -57,7 +57,7 @@ vault-pass d98f7g19-h5m1-q9w8-x32c-i3o2p1cg7u41
 # Install in editable mode
 pip install -e .
 
-# Run tests
+# Run tests (todo.. not tests yet)
 pytest
 ```
 
