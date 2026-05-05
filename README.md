@@ -2,11 +2,28 @@
 
 Vault Pass is a streamlined utility built to eliminate the constant friction of master password prompts when using the Bitwarden CLI. It allows you to unlock your vault once and securely reuse that session across multiple terminal windows or Ansible runs until your next reboot.
 
-## Installation
+## Installation in Ansible Projects
 
-```bash
-pip install vault-pass
+To use vault-pass in your project, simply add it to your dev_requirements.txt file. 
+Add one of the following lines: 
+
+### Using HTTPS:
 ```
+git+https://github.com/marwyg/vault-pass.git@main
+```
+
+### Using SSH:
+```
+git+ssh://git@github.com/marwyg/vault-pass.git@main
+```
+
+Then, install the requirements as usual:
+```Bash
+pip install -r dev_requirements.txt
+```
+
+## Forking
+Note: Instead of using my main branch, consider forking this project and add your repository to your requirements file. This protects your workflow from upstream changes and ensures you have full control over the version used by your team.
 
 ## Usage
 
